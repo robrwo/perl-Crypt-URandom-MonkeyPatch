@@ -9,7 +9,7 @@ BEGIN {
     *CORE::GLOBAL::rand = \&rand;
 }
 
-sub rand {
+sub rand(;$) {
     my $a = shift || 1;
     my ($b) = unpack( "N", urandom(4) );
     say STDERR __PACKAGE__ . "::urandom used" if $ENV{CRYPT_URANDOM_MONKEYPATCH_DEBUG};
