@@ -17,6 +17,6 @@ stderr_like {
 
     note $pa;
 }
-qr/^(Crypt::URandom::MonkeyPatch::urandom returns [0-9]+\n){5}/, "debug output";
+qr/^(Crypt::URandom::MonkeyPatch::urandom used\n){5}/, "debug output";
 
 done_testing;

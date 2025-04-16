@@ -18,6 +18,6 @@ stderr_like {
 
     rand();
 }
-qr/^Crypt::URandom::MonkeyPatch::urandom returns [0-9]+$/, "debug output";
+qr/^Crypt::URandom::MonkeyPatch::urandom used$/, "debug output";
 
 done_testing;
