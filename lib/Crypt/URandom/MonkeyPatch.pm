@@ -16,4 +16,14 @@ BEGIN {
 
 }
 
+=head1 SEE ALSO
+
+L<Crypt::URandom>
+
+L<CORE>
+
+L<perlfunc>
+
+=cut
+
 1;
