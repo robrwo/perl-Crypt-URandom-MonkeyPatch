@@ -6,7 +6,8 @@ use Test::Output;
 
 use Crypt::URandom::MonkeyPatch;
 
-ok rand(), "rand()";
+ok my $v = rand(), "rand()";
+note $v;
 
 ok rand(0), "rand(0)";
 
