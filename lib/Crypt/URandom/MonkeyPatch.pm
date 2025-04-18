@@ -10,6 +10,8 @@ use Crypt::URandom qw( urandom );
 use constant SIZE => 1 << 31;
 use constant MASK => SIZE - 1;
 
+our $VERSION = 'v0.1.0';
+
 BEGIN {
 
     *CORE::GLOBAL::rand = \&rand;
