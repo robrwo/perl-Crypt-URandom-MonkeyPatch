@@ -71,6 +71,13 @@ L<CORE>
 
 L<perlfunc>
 
+=head1 append:BUGS
+
+=head2 Reporting Security Vulnerabilities
+
+Security issues should not be reported on the bugtracker website. Please see F<SECURITY.md> for instructions how to
+report security vulnerabilities
+
 =cut
 
 1;

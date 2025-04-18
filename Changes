@@ -1,6 +1,8 @@
 Revision history for {{ $dist->name }}:
 
 {{$NEXT}}
+  [Documentation]
+  - Added reference to the security policy in the BUGS section.
 
 v0.1.0    2025-04-18 14:59:36+01:00 Europe/London
   - Initial version released.
