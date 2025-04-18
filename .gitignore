@@ -1,0 +1,10 @@
+Crypt-URandom-MonkeyPatch*
+.build/
+cpanfile.snapshot
+Makefile
+*.bak
+*.tmp
+blib/
+pm_to_blib
+MYMETA.*
+XS.*
