@@ -17,6 +17,6 @@ stderr_like {
 
     note $pa;
 }
-qr/^(Crypt::URandom::MonkeyPatch::urandom used\n){5}/, "debug output";
+qr/^(Crypt::URandom::MonkeyPatch::urandom used from String::Random line [1-9][0-9]+\n){5}/, "debug output";
 
 done_testing;

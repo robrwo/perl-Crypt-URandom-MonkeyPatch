@@ -16,7 +16,10 @@ BEGIN {
 sub rand(;$) {
     my $a = shift || 1;
     my ($b) = unpack( "N", urandom(4) ) & MASK;
-    say STDERR __PACKAGE__ . "::urandom used" if $ENV{CRYPT_URANDOM_MONKEYPATCH_DEBUG};
+    if ( $ENV{CRYPT_URANDOM_MONKEYPATCH_DEBUG} ) {
+        my ( $package, $filename, $line ) = caller;
+        say STDERR __PACKAGE__ . "::urandom used from ${package} line ${line}";
+    }
     return $a * $b / SIZE;
 }
 
@@ -38,9 +41,9 @@ e.g.
 
     my $salt = random_string("........");
 
-Every time the C<rand> function is called, it will output a line
+Every time the C<rand> function is called, it will output a line such as
 
-    Crypt::URandom::MonkeyPatch::urandom used
+    Crypt::URandom::MonkeyPatch::urandom used from Some::Package line 123
 
 This module is not intended for use with new code, or for use in CPAN modules.  If you are writing new code that needs a
 secure souce of random bytes, then use L<Crypt::URandom> or see the L<CPAN Author's Guide to Random Data for

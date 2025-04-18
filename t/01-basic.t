@@ -19,6 +19,6 @@ stderr_like {
 
     rand();
 }
-qr/^Crypt::URandom::MonkeyPatch::urandom used$/, "debug output";
+qr/^Crypt::URandom::MonkeyPatch::urandom used from main line [1-9][0-9]+$/, "debug output";
 
 done_testing;
