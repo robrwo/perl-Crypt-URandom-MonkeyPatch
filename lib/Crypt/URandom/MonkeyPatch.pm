@@ -5,7 +5,7 @@ use warnings;
 
 use Crypt::URandom qw( urandom );
 
-use constant SIZE => 2**32;
+use constant SIZE => 1 << 31;
 use constant MASK => SIZE - 1;
 
 BEGIN {
