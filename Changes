@@ -1,6 +1,8 @@
 Revision history for {{ $dist->name }}:
 
 {{$NEXT}}
+  [Documentation]
+  - Fixed typos in the How to Contribute document.
 
 v0.1.1    2025-04-23 12:41:42+01:00 Europe/London
   [Enhancements]
