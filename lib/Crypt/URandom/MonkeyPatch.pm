@@ -12,7 +12,7 @@ use Crypt::URandom qw( urandom );
 use constant SIZE => 1 << 31;
 use constant MASK => SIZE - 1;
 
-our $VERSION = 'v0.1.1';
+our $VERSION = 'v0.1.2';
 
 use version 0.77; $VERSION = version->declare($VERSION);
 

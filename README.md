@@ -4,7 +4,7 @@ Crypt::URandom::MonkeyPatch - override core rand function to use system random s
 
 # VERSION
 
-version v0.1.1
+version v0.1.2
 
 # SYNOPSIS
 
