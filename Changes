@@ -1,6 +1,9 @@
 Revision history for {{ $dist->name }}:
 
 {{$NEXT}}
+  [Enhancements]
+  - The minimum Perl version was downgraded to v5.8.
+
   [Documentation]
   - Added reference to the security policy in the BUGS section.
 

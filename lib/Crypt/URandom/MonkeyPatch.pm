@@ -2,7 +2,9 @@ package Crypt::URandom::MonkeyPatch;
 
 # ABSTRACT: override core rand function to use system random sources
 
-use v5.16;
+use v5.8.0;
+
+use strict;
 use warnings;
 
 use Crypt::URandom qw( urandom );
@@ -11,6 +13,8 @@ use constant SIZE => 1 << 31;
 use constant MASK => SIZE - 1;
 
 our $VERSION = 'v0.1.1';
+
+use version 0.77; $VERSION = version->declare($VERSION);
 
 BEGIN {
 
