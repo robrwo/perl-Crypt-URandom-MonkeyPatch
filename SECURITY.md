@@ -1,8 +1,12 @@
 # Security Policy for the Crypt-URandom-MonkeyPatch distribution.
 
-Report security issues using https://github.com/robrwo/perl-Crypt-URandom-MonkeyPatch/security/advisories.
+Report security issues via the project
+[Security Advisories](https://github.com/robrwo/perl-Crypt-URandom-MonkeyPatch/security/advisories).
 
 This is the Security Policy for Crypt-URandom-MonkeyPatch.
+
+The latest version of the Security Policy can be found in the
+[git repository for Crypt-URandom-MonkeyPatch](https://github.com/robrwo/perl-Crypt-URandom-MonkeyPatch).
 
 This text is based on the CPAN Security Group's Guidelines for Adding
 a Security Policy to Perl Distributions (version 1.3.0)
@@ -11,7 +15,8 @@ https://security.metacpan.org/docs/guides/security-policy-for-authors.html
 # How to Report a Security Vulnerability
 
 Security vulnerabilities can be reported to the current Crypt-URandom-MonkeyPatch
-maintainers using https://github.com/robrwo/perl-Crypt-URandom-MonkeyPatch/security/advisories.
+maintainers via the project
+[Security Advisories](https://github.com/robrwo/perl-Crypt-URandom-MonkeyPatch/security/advisories).
 
 Please include as many details as possible, including code samples
 or test cases, so that we can reproduce the issue.  Check that your
@@ -78,11 +83,6 @@ Crypt-URandom-MonkeyPatch distribution) are not covered by this policy.
 
 The maintainer(s) will only commit to releasing security fixes for
 the latest version of Crypt-URandom-MonkeyPatch.
-
-Note that the Crypt-URandom-MonkeyPatch project only supports major versions of Perl
-released in the past 10 years, even though Crypt-URandom-MonkeyPatch will run on
-older versions of Perl.  If a security fix requires us to increase
-the minimum version of Perl that is supported, then we may do so.
 
 # Installation and Usage Issues
 
