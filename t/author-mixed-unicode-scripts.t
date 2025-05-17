@@ -10,7 +10,7 @@ BEGIN {
   }
 }
 
-use Test2::V0;
+use Test::More;
 
 if ( $] < 5.014 ) {
     plan skip_all => "Test::MixedScripts cannot run on this Perl";
