@@ -6,6 +6,9 @@ Revision history for {{ $dist->name }}:
 
   - Updated the security policy.
 
+  [Tests]
+  - Added missing development prerequisite
+
 v0.1.1    2025-04-23 12:41:42+01:00 Europe/London
   [Enhancements]
   - The minimum Perl version was downgraded to v5.8.

@@ -31,6 +31,7 @@ on 'configure' => sub {
 on 'develop' => sub {
   requires "Pod::Coverage::TrustPod" => "0";
   requires "Software::Security::Policy::Individual" => "0.10";
+  requires "Test::CPAN::Changes" => "0";
   requires "Test::CVE" => "0.08";
   requires "Test::EOF" => "0";
   requires "Test::EOL" => "0";
