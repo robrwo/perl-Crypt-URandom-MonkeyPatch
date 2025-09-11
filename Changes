@@ -10,6 +10,8 @@ Revision history for {{ $dist->name }}:
 
   - Removed the redundant INSTALL guide.
 
+  - Renamed BUGS to SUPPORT and documented supported versions.
+
   [Tests]
   - Added more author tests.
 

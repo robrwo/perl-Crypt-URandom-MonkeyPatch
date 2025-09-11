@@ -39,6 +39,7 @@ Changes for version v0.1.2 (2025-09-11)
     - Updated the security policy.
     - Generated README using the Dzil UsefulReadme plugin.
     - Removed the redundant INSTALL guide.
+    - Renamed BUGS to SUPPORT.
 - Tests
     - Added more author tests.
     - Added missing development prerequisite.
@@ -91,7 +92,11 @@ dzil install --install-command="cpan ."
 
 For more information, see [How to install CPAN modules](https://www.cpan.org/modules/INSTALL.html).
 
-# BUGS
+# SUPPORT
+
+Only the latest version of this module will be supported.
+
+Only Perl versions released in the past ten (10) years are supported, even though this module may run on earlier versions.
 
 Please report any bugs or feature requests on the bugtracker website
 [https://github.com/robrwo/perl-Crypt-URandom-MonkeyPatch/issues](https://github.com/robrwo/perl-Crypt-URandom-MonkeyPatch/issues)

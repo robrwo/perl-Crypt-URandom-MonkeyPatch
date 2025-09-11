@@ -75,7 +75,13 @@ L<CORE>
 
 L<perlfunc>
 
-=head1 append:BUGS
+=head1 prepend:SUPPORT
+
+Only the latest version of this module will be supported.
+
+Only Perl versions released in the past ten (10) years are supported, even though this module may run on earlier versions.
+
+=head1 append:SUPPORT
 
 =head2 Reporting Security Vulnerabilities
 
