@@ -60,8 +60,8 @@ Because this updates the builtin function globally, it may affect other parts of
 
 # SOURCE
 
-The development version is on github at [https://github.com/robrwo/perl-Crypt-URandom-MonkeyPatch](https://github.com/robrwo/perl-Crypt-URandom-MonkeyPatch)
-and may be cloned from [git://github.com/robrwo/perl-Crypt-URandom-MonkeyPatch.git](git://github.com/robrwo/perl-Crypt-URandom-MonkeyPatch.git)
+The development version is on github at ["robrwo/perl-Crypt-URandom-MonkeyPatch" in github.com](https://metacpan.org/pod/github.com#robrwo-perl-Crypt-URandom-MonkeyPatch)
+and may be cloned from ["robrwo/perl-Crypt-URandom-MonkeyPatch.git" in github.com](https://metacpan.org/pod/github.com#robrwo-perl-Crypt-URandom-MonkeyPatch.git)
 
 # BUGS
 
