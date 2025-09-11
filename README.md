@@ -37,6 +37,8 @@ Changes for version v0.1.2 (2025-09-11)
 - Documentation
     - Fixed typos.
     - Updated the security policy.
+    - Generated README using the Dzil UsefulReadme plugin.
+    - Removed the redundant INSTALL guide.
 - Tests
     - Added more author tests.
     - Added missing development prerequisite.
@@ -87,7 +89,7 @@ dzil test
 dzil install --install-command="cpan ."
 ```
 
-For more information, see the `INSTALL` file included with this distribution.
+For more information, see [How to install CPAN modules](https://www.cpan.org/modules/INSTALL.html).
 
 # BUGS
 

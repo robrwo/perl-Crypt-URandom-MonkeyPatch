@@ -8,6 +8,8 @@ Revision history for {{ $dist->name }}:
 
   - Generated README using the Dzil UsefulReadme plugin.
 
+  - Removed the redundant INSTALL guide.
+
   [Tests]
   - Added more author tests.
 
