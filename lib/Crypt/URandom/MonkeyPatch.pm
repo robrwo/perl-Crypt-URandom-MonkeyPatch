@@ -37,7 +37,7 @@ sub rand(;$) {
 
 =head1 DESCRIPTION
 
-This module globlly overrides the builtin Perl function C<rand> with one based on the operating system's cryptographic
+This module globally overrides the builtin Perl function C<rand> with one based on the operating system's cryptographic
 random number source, e.g. F</dev/urandom>.
 
 The purpose of this module is monkey patch legacy code that uses C<rand> for security purposes.

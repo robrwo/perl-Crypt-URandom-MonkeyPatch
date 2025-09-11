@@ -14,7 +14,7 @@ use Crypt::URandom::MonkeyPatch;
 
 # DESCRIPTION
 
-This module globlly overrides the builtin Perl function `rand` with one based on the operating system's cryptographic
+This module globally overrides the builtin Perl function `rand` with one based on the operating system's cryptographic
 random number source, e.g. `/dev/urandom`.
 
 The purpose of this module is monkey patch legacy code that uses `rand` for security purposes.

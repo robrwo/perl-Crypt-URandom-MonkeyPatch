@@ -2,7 +2,7 @@ Revision history for {{ $dist->name }}:
 
 {{$NEXT}}
   [Documentation]
-  - Fixed typos in the How to Contribute document.
+  - Fixed typos.
 
   - Updated the security policy.
 
