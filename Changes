@@ -6,6 +6,8 @@ Revision history for {{ $dist->name }}:
 
   - Updated the security policy.
 
+  - Generated README using the Dzil UsefulReadme plugin.
+
   [Tests]
   - Added more author tests.
 
