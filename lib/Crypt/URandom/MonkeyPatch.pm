@@ -31,6 +31,12 @@ sub rand(;$) {
     return $a * $b / SIZE;
 }
 
+=begin :prelude
+
+=for stopwords cryptographic
+
+=end :prelude
+
 =head1 SYNOPSIS
 
     use Crypt::URandom::MonkeyPatch;
@@ -56,7 +62,7 @@ Every time the C<rand> function is called, it will output a line such as
 =head1 KNOWN ISSUES
 
 This module is not intended for use with new code, or for use in CPAN modules.  If you are writing new code that needs a
-secure souce of random bytes, then use L<Crypt::URandom> or see the L<CPAN Author's Guide to Random Data for
+secure source of random bytes, then use L<Crypt::URandom> or see the L<CPAN Author's Guide to Random Data for
 Security|https://security.metacpan.org/docs/guides/random-data-for-security.html>.
 
 This should only be used when the affected code cannot be updated.
