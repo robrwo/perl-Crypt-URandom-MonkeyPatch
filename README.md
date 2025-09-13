@@ -32,16 +32,17 @@ Crypt::URandom::MonkeyPatch::urandom used from Some::Package line 123
 
 # RECENT CHANGES
 
-Changes for version v0.1.2 (2025-09-11)
+Changes for version v0.1.2 (2025-09-13)
 
 - Documentation
     - Fixed typos.
     - Updated the security policy.
     - Generated README using the Dzil UsefulReadme plugin.
     - Removed the redundant INSTALL guide.
-    - Renamed BUGS to SUPPORT.
+    - Renamed BUGS to SUPPORT and documented supported versions.
 - Tests
-    - Added more author tests.
+    - Added and updated author tests.
+    - Moved author tests into the \`xt\` directory.
     - Added missing development prerequisite.
 
 See the `Changes` file for more details.
