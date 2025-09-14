@@ -26,7 +26,7 @@ sub rand(;$) {
     my ($b) = unpack( "N", urandom(4) ) & MASK;
     if ( $ENV{CRYPT_URANDOM_MONKEYPATCH_DEBUG} ) {
         my ( $package, $filename, $line ) = caller;
-        say STDERR __PACKAGE__ . "::urandom used from ${package} line ${line}";
+        print STDERR __PACKAGE__ . "::urandom used from ${package} line ${line}\n";
     }
     return $a * $b / SIZE;
 }
